@@ -13,7 +13,7 @@
     let particles = [];
     let textImageData = null;
     let image = new Image();
-    image.src = 'https://yourcdn.com/SPa.png'; // Change this to your real image URL
+    image.src = 'https://cdn.jsdelivr.net/gh/VCRISff/E/SPa.png';
 
     const mouse = { x: 0, y: 0 };
     let isTouching = false;
