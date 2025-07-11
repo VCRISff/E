@@ -81,7 +81,7 @@
             const dx = mouse.x - p.x;
             const dy = mouse.y - p.y;
             const dist = Math.sqrt(dx * dx + dy * dy);
-            const maxDist = 240;
+            const maxDist = 120;
 
             if (dist < maxDist && (isTouching || !('ontouchstart' in window))) {
                 const force = (maxDist - dist) / maxDist;
