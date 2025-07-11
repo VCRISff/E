@@ -28,7 +28,7 @@
     function updateCanvasSize() {
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
-        isMobile = window.innerWidth < 768;
+        isMobile = window.innerWidth < 800;
     }
 
     function createTextImage() {
